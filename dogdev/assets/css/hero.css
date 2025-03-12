@@ -1,0 +1,43 @@
+.hero{
+    background-image: url(../images/McLaren_Senna_MSO_Carbon_fiber_565483_1920x1080.jpg);
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--hero-background);
+}
+.hero .box{
+    padding: 4rem 2rem 28rem 2rem;
+    max-width: 60rem;
+}
+.hero h1{
+    font-family: "Grandstander", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+.hero h1 span{
+    color:var(--secondary);
+}
+.hero h2{
+    font-size: 2rem;
+    font-weight: normal;
+    color: aliceblue;
+    margin: 3rem 0;
+}
+.hero a{
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid;
+    border-radius: 15px;
+    background-color: transparent;
+}
+@media(width>900px){
+    .hero{
+        background-image: url(../images/McLaren_Senna_MSO_Carbon_fiber_565483_1920x1080.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hero .box{
+        padding: 15rem 2rem;
+    }
+}
